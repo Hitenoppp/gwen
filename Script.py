@@ -3,24 +3,28 @@ class script(object):
 I'm <a href=https://t.me.MoviZenX>MoviZenX Search Bot</a> or you can call me as <a href=https://t.me/TheCatWomanBot>Catwoman Bot</a>
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
-Owner - @AnnihilusOP 😁"""
+Owner - @Hiten003 😁"""
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """⭐ Name: @TheCatWomanBot
-⭐ Creators: <a href=https://t.me/MoviZenX>Team MoviZenX</a>
+    ABOUT_TXT = """⭐ Name: Daredevil 
+⭐ Creators: <a href=https://t.me/Moviezzprime>Team Moviezzprime</a>
 ⭐ Library: Pyrogram
 ⭐ Language: <code>Python 3.2</code>
 ⭐ Build Status: V2.0.1 [Beta]
-⭐ Daddy's Name: <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
+⭐ Daddy's Name: <a href=https://t.me/hiten003>Hiten🤭</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
+-○    NOTE:
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @TheCatWomanBot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
+○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @Daredevilmoviebot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 
+DEVS:
+- Hiten
+
 <b>DEVS:</b>
-- <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
+- <a href=https://t.me/hiten003>Hiten🤭</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and @TheCatWomanBot will respond whenever a keyword is found the message
@@ -37,7 +41,7 @@ Owner - @AnnihilusOP 😁"""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- CatWoman Supports both url and alert inline buttons.
+- Daredevil Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -45,7 +49,7 @@ Owner - @AnnihilusOP 😁"""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/TheCatWomanBot)</code>
+<code>[Button Text](buttonurl:https://t.me/Daredevilmoviebot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
