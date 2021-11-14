@@ -103,7 +103,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/mxCLubHouse')
+            InlineKeyboardButton('Support', url=f'https://t.me/moviezzprime')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
