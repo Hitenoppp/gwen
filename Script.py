@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hey {},
-I'm <a href=https://t.me.MoviZenX>MoviZenX Search Bot</a> or you can call me as <a href=https://t.me/TheCatWomanBot>Catwoman Bot</a>
+I'm <a href=https://t.me.Moviezzprime>Moviezzprime Search Bot</a> or you can call me as <a href=https://t.me/TheCatWomanBot>Catwoman Bot</a>
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 Owner - @Hiten003 😁"""
@@ -16,7 +16,7 @@ Owner - @Hiten003 😁"""
 -○    NOTE:
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @Daredevilmoviebot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
+○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @mpfilterbot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 
