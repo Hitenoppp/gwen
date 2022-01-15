@@ -13,15 +13,11 @@ Owner - @Hiten003 😁"""
 ⭐ Build Status: V2.0.1 [Beta]
 ⭐ Daddy's Name: <a href=https://t.me/hiten003>Hiten🤭</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
--○    NOTE:
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
 ○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @Moviezzprimefilterbot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
-
-DEVS:
-- Hiten
 
 <b>DEVS:</b>
 - <a href=https://t.me/hiten003>Hiten🤭</a>"""
