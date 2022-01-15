@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """Hey {},
-I'm <a href=https://t.me.Moviezzprime>Moviezzprime Search Bot</a> or you can call me as <a href=https://t.me/TheCatWomanBot>Catwoman Bot</a>
+I'm <a href=https://t.me/moviezzprime>Moviezzprime Search Bot</a> or you can call me as a simple filter bot
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 Owner - @Hiten003 😁"""
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """⭐ Name: Daredevil 
+    ABOUT_TXT = """⭐ Name: Filter bot
 ⭐ Creators: <a href=https://t.me/Moviezzprime>Team Moviezzprime</a>
 ⭐ Library: Pyrogram
 ⭐ Language: <code>Python 3.2</code>
@@ -16,7 +16,7 @@ Owner - @Hiten003 😁"""
 -○    NOTE:
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @mpfilterbot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
+○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @Moviezzprimefilterbot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 
@@ -49,7 +49,7 @@ DEVS:
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Daredevilmoviebot)</code>
+<code>[Button Text](buttonurl:https://t.me/Moviezzprimefilterbot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
