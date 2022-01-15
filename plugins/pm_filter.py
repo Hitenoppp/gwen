@@ -664,15 +664,21 @@ async def advantage_spell_chok(msg):
             movielist += [f"{ko[1]} {splitted[ko[0] + 1]}"  for ko in enumerate(splitted) if ko[0] % 2 == 0]
         elif splitted[:-1]:
             movielist += [f"{ko[1]} {splitted[:-1][ko[0] + 1]}"  for ko in enumerate(splitted[:-1]) if ko[0] % 2 == 0]
+    if not movielist:
+        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        await asyncio.sleep(8)
+        await k.delete()
+        return
     SPELL_CHECK[msg.message_id] = movielist
     btn = [[
                 InlineKeyboardButton(
-                    text=movie,
+                    text=movie.strip(),
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply('I cant find anything related to that\nKindly Check Your spelling, reply_markup=InlineKeyboardMarkup('Check Spelling',url='https://www.google.com/search?q=')
+    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
+    
     
 
 
