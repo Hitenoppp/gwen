@@ -664,19 +664,26 @@ async def advantage_spell_chok(msg):
             movielist += [f"{ko[1]} {splitted[ko[0] + 1]}"  for ko in enumerate(splitted) if ko[0] % 2 == 0]
         elif splitted[:-1]:
             movielist += [f"{ko[1]} {splitted[:-1][ko[0] + 1]}"  for ko in enumerate(splitted[:-1]) if ko[0] % 2 == 0]
-    if not movielist:
-        one_button = 
-InlineKeyboardMarkup([[InlineKeyboardButton("Check spelling",url="https://google.com/search?q=")]])
-        k = await msg.reply("𝙋𝙡𝙚𝙖𝙨𝙚 𝙋𝙧𝙤𝙫𝙞𝙙𝙚 𝙏𝙝𝙚 𝘾𝙤𝙧𝙧𝙚𝙘𝙩 𝙈𝙤𝙫𝙞𝙚 𝙉𝙖𝙢𝙚..🥱\n\n⭕ᴅᴏɴᴛ ᴀꜱᴋ ᴛʜᴇᴀᴛʀᴇ ᴩʀɪɴᴛꜱ\n⭕ʀᴇqᴜᴇꜱᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ ᴏɴʟy\n⭕ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟᴇ ꜰᴏʀ ᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ🔍")
-        await asyncio.sleep(8)
-        await k.delete()
-        return
-    SPELL_CHECK[msg.message_id] = movielist
-    btn = [[
-                InlineKeyboardButton(
-                    text=movie.strip(),
-                    callback_data=f"spolling#{user}#{k}",
-                )
-            ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("𝙋𝙡𝙚𝙖𝙨𝙚 𝙋𝙧𝙤𝙫𝙞𝙙𝙚 𝙏𝙝𝙚 𝘾𝙤𝙧𝙧𝙚𝙘𝙩 𝙈𝙤𝙫𝙞𝙚 𝙉𝙖𝙢𝙚..🥱\n\n⭕ᴅᴏɴᴛ ᴀꜱᴋ ᴛʜᴇᴀᴛʀᴇ ᴩʀɪɴᴛꜱ\n⭕ʀᴇqᴜᴇꜱᴛ ʀᴇʟᴇᴀꜱᴇᴅ ᴍᴏᴠɪᴇꜱ ᴏɴʟy\n⭕ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟᴇ ꜰᴏʀ ᴄᴏʀʀᴇᴄᴛ ꜱᴩᴇʟʟɪɴɢ🔍")
+    if movielist: 
+
+one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Check spelling", url="https://google.com/search?q=")]]) 
+
+k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>🅗🅔🅨, 🅝🅞 🅜🅞🅥🅘🅔/🅢🅔🅘🅔🅢 🅕🅞🅤🅝🅓</b>\n<b>🅕🅞🅡 🅨🅞🅤🅡 🅡🅔🅠🅤🅔🅢🅣</b>\n\n<b>⭕️ ɪᴛ ᴍɪɢʜᴛ ʙᴇ ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ᴍɪɢʜᴛ ʙᴇ ᴡʀᴏɴɢ ⭕️ \n\n<b>👉Kindly check your spelling👇</b>", reply_markup = one_button) 
+
+await asyncio.sleep(20) 
+
+await k.delete() 
+
+return 
+
+if not movielist: 
+
+one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂Check spelling", url="https://google.com/search?q=")]]) 
+
+k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>🅗🅔🅨, 🅝🅞 🅜🅞🅥🅘🅔/🅢🅔🅘🅔🅢 🅕🅞🅤🅝🅓</b>\n<b>🅕🅞🅡 🅨🅞🅤🅡 🅡🅔🅠🅤🅔🅢🅣</b>\n\n<b>⭕️ ɪᴛ ᴍɪɢʜᴛ ʙᴇ ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ᴍɪɢʜᴛ ʙᴇ ᴡʀᴏɴɢ ⭕️ \n\n<b>👉Kindly check your spelling👇</b>", reply_markup = one_button) 
+
+await asyncio.sleep(20) 
+
+await k.delete() 
+
+return
