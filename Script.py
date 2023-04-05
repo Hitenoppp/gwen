@@ -3,7 +3,7 @@ class script(object):
 I'm <a href=https://t.me/moviezzprime>Moviezzprime Search Bot</a> or you can call me as a simple filter bot
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
-Owner - @Hiten003 😁"""
+Owner - @HitenOp 😁"""
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """⭐ Name: Filter bot
@@ -11,7 +11,7 @@ Owner - @Hiten003 😁"""
 ⭐ Library: Pyrogram
 ⭐ Language: <code>Python 3.2</code>
 ⭐ Build Status: V2.0.1 [Beta]
-⭐ Daddy's Name: <a href=https://t.me/hiten003>Hiten🤭</a>"""
+⭐ Daddy's Name: <a href=https://t.me/hitenOp>Hiten🤭</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
 
@@ -20,7 +20,7 @@ Owner - @Hiten003 😁"""
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 
 <b>DEVS:</b>
-- <a href=https://t.me/hiten003>Hiten🤭</a>"""
+- <a href=https://t.me/hitenOp>Hiten🤭</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and @TheCatWomanBot will respond whenever a keyword is found the message
